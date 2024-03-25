@@ -1,6 +1,6 @@
 local oldtick = tick()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Vertigos Refinery", HidePremium = false, SaveConfig = true, ConfigFolder = "RefineryCaves"})
+local Window = OrionLib:MakeWindow({Name = "Vertigos Refinery", HidePremium = true, SaveConfig = true, ConfigFolder = "RefineryCaves"})
 function GetPlot()
 for i,v in pairs(game:GetService("Workspace").Plots:GetChildren()) do
 if v:FindFirstChild("Owner") and v.Owner.Value == game.Players.LocalPlayer then

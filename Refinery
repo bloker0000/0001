@@ -104,7 +104,7 @@ Options = Utility,
 Callback = function(Value)
 local obj = game:GetService("Workspace").Grabable:FindFirstChild(Value)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = obj.PrimaryPart.CFrame
-task.wait(.2)
+task.wait(.3)
 game:GetService("ReplicatedStorage").Events.Grab:InvokeServer(obj.PrimaryPart,{})
 game:GetService("ReplicatedStorage").Events.Ungrab:FireServer(obj.PrimaryPart,{})
 obj.PrimaryPart.CFrame = game:GetService("Workspace").Map.Buildings.UCS.Registers.Register1.Counter.Counter.CFrame + Vector3.new(0,2,0)
@@ -133,7 +133,7 @@ Options = Dealer,
 Callback = function(Value)
 local obj = game:GetService("Workspace").Grabable:FindFirstChild(Value)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = obj.PrimaryPart.CFrame
-task.wait(.2)
+task.wait(.3)
 game:GetService("ReplicatedStorage").Events.Grab:InvokeServer(obj.PrimaryPart,{})
 game:GetService("ReplicatedStorage").Events.Ungrab:FireServer(obj.PrimaryPart,{})
 obj.PrimaryPart.CFrame = game:GetService("Workspace").Map.Buildings.Delearship.Registers.Register1.Counter.Counter.CFrame + Vector3.new(0,2,0)
@@ -162,7 +162,7 @@ Options = logic,
 Callback = function(Value)
 local obj = game:GetService("Workspace").Grabable:FindFirstChild(Value)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = obj.PrimaryPart.CFrame
-task.wait(.2)
+task.wait(.3)
 game:GetService("ReplicatedStorage").Events.Grab:InvokeServer(obj.PrimaryPart,{})
 game:GetService("ReplicatedStorage").Events.Ungrab:FireServer(obj.PrimaryPart,{})
 obj.PrimaryPart.CFrame = game:GetService("Workspace").Map.Buildings.LogicShop.Registers.Register1.Counter.Counter.CFrame + Vector3.new(0,2,0)
@@ -191,7 +191,7 @@ Options = pick,
 Callback = function(Value)
 local obj = game:GetService("Workspace").Grabable:FindFirstChild(Value)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = obj.PrimaryPart.CFrame
-task.wait(.2)
+task.wait(.3)
 game:GetService("ReplicatedStorage").Events.Grab:InvokeServer(obj.PrimaryPart,{})
 game:GetService("ReplicatedStorage").Events.Ungrab:FireServer(obj.PrimaryPart,{})
 obj.PrimaryPart.CFrame = game:GetService("Workspace").Map.Buildings.PickaxeShop.Registers.Register1.Counter.Counter.CFrame + Vector3.new(0,2,0)
@@ -220,7 +220,7 @@ Options = furn,
 Callback = function(Value)
 local obj = game:GetService("Workspace").Grabable:FindFirstChild(Value)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = obj.PrimaryPart.CFrame
-task.wait(.2)
+task.wait(.3)
 game:GetService("ReplicatedStorage").Events.Grab:InvokeServer(obj.PrimaryPart,{})
 game:GetService("ReplicatedStorage").Events.Ungrab:FireServer(obj.PrimaryPart,{})
 obj.PrimaryPart.CFrame = game:GetService("Workspace").Map.Buildings.FurnitureShop.Registers.Register1.Counter.Counter.CFrame + Vector3.new(0,2,0)

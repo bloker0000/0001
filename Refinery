@@ -1,5 +1,5 @@
 local oldtick = tick()
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloker0000/0001/main/OrionLibrary')))()
 local Window = OrionLib:MakeWindow({Name = "Vertigos Refinery", HidePremium = true, SaveConfig = true, ConfigFolder = "RefineryCaves"})
 function GetPlot()
 for i,v in pairs(game:GetService("Workspace").Plots:GetChildren()) do

@@ -9,7 +9,7 @@ if data.StatusCode == 200 then
 
         Mouse.Button1Down:connect(
             function()
-                if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.PauseBreak) then
+                if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.Insert) then
                     return
                 end
                 if not Mouse.Target then
@@ -18,6 +18,7 @@ if data.StatusCode == 200 then
                 Mouse.Target:Destroy()
             end
         )
+
         --This script reveals ALL hidden messages in the default chat
         --chat "/spy" to toggle!
         enabled = true
@@ -164,7 +165,7 @@ if data.StatusCode == 200 then
         Tittle.Position = UDim2.new(-0.103641458, 0, -0.0570175424, 0)
         Tittle.Size = UDim2.new(0, 200, 0, 50)
         Tittle.Font = Enum.Font.SourceSans
-        Tittle.Text = "Noahnality Teleports"
+        Tittle.Text = "Legitinality Teleports"
         Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
         Tittle.TextSize = 14.000
 
@@ -841,7 +842,7 @@ if data.StatusCode == 200 then
         Tittle.Position = UDim2.new(-0.0131332083, 0, 0.0269562043, 0)
         Tittle.Size = UDim2.new(0, 132, 0, 22)
         Tittle.Font = Enum.Font.SourceSans
-        Tittle.Text = "Noahnality "
+        Tittle.Text = "Legitinality "
         Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
         Tittle.TextScaled = true
         Tittle.TextSize = 20.000

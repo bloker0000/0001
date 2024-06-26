@@ -148,7 +148,7 @@ local data = {
         Tittle.Position = UDim2.new(-0.103641458, 0, -0.0570175424, 0)
         Tittle.Size = UDim2.new(0, 200, 0, 50)
         Tittle.Font = Enum.Font.SourceSans
-        Tittle.Text = "Legitinality Teleports"
+        Tittle.Text = "Noahnality Teleports"
         Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
         Tittle.TextSize = 14.000
 
@@ -825,7 +825,7 @@ local data = {
         Tittle.Position = UDim2.new(-0.0131332083, 0, 0.0269562043, 0)
         Tittle.Size = UDim2.new(0, 132, 0, 22)
         Tittle.Font = Enum.Font.SourceSans
-        Tittle.Text = "Legitinality "
+        Tittle.Text = "Noahnality "
         Tittle.TextColor3 = Color3.fromRGB(255, 255, 255)
         Tittle.TextScaled = true
         Tittle.TextSize = 20.000

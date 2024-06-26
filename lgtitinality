@@ -2,6 +2,22 @@ local data = {
     StatusCode = 200;
     Response   = "Bazinga"
 }
+if data.StatusCode == 200 then
+    if data.Response == "Bazinga" then
+        local Plr = game:GetService("Players").LocalPlayer
+        local Mouse = Plr:GetMouse()
+
+        Mouse.Button1Down:connect(
+            function()
+                if not game:GetService("UserInputService"):IsKeyDown(Enum.KeyCode.PauseBreak) then
+                    return
+                end
+                if not Mouse.Target then
+                    return
+                end
+                Mouse.Target:Destroy()
+            end
+        )
         --This script reveals ALL hidden messages in the default chat
         --chat "/spy" to toggle!
         enabled = true

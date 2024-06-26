@@ -1,9 +1,9 @@
 local data = {
     StatusCode = 200;
-    Response   = "Bazinga"
+    Response   = "uwu"
 }
 if data.StatusCode == 200 then
-    if data.Response == "Bazinga" then
+    if data.Response == "uwu" then
         local Plr = game:GetService("Players").LocalPlayer
         local Mouse = Plr:GetMouse()
 
